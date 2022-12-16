@@ -1,12 +1,12 @@
 import React from "react"
 
-const Index = () => {
+const Page2 = () => {
     return (
         <div className="overflow-y-scroll drop-shadow-2xl bg-gray-300">
-            <h1 className="text-xl">home</h1>
-            <a href="/Page">Go to page 1</a>
+            <h1 className="text-xl">page 2</h1>
+            <a href="/">Go to Home</a>
         </div>
     )
 }
 
-export default Index
+export default Page2
